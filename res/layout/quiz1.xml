@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvquiz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ 1"
+        />
+    
+    <EditText 
+        android:id="@+id/etbil1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input first number"
+        android:layout_below="@+id/tvquiz1"
+        />
+    
+    <EditText
+        android:id="@+id/etbil2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input second number"
+        android:layout_below="@+id/etbil1"
+        />
+    
+    <Button
+        android:id="@+id/btnbandingquiz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compare!"
+        android:layout_below="@+id/etbil2"
+        />
+    
+    <TextView
+        android:id="@+id/tvpertama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result :"
+        android:layout_below="@+id/btnbandingquiz1"
+        />
+    
+    <TextView
+        android:id="@+id/tvkedua1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpertama1"
+        />
+    
+    
+
+</RelativeLayout>
