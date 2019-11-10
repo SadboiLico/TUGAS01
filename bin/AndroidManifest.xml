@@ -24,6 +24,18 @@
         </activity>
         
         <activity
+            android:name="com.example.perbandingan.Profile"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
+            android:name="com.example.perbandingan.Menuquiz"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+        <activity
             android:name="com.example.perbandingan.Quiz1"
             android:label="@string/app_name" >
             

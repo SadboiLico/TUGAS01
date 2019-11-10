@@ -43,6 +43,21 @@ public class Quiz2 extends Activity{
 					tketiga2.setText(String.valueOf(bil1quiz2));
 				}
 				
+				else if(bil1quiz2 == bil2quiz2 && bil1quiz2 > bil3quiz2){
+					tkedua2.setText("The first and second number ("+String.valueOf(bil1quiz2)+") are the biggest");
+					tketiga2.setText("The third number ("+String.valueOf(bil3quiz2)+") is the smallest");				
+				}
+				
+				else if(bil2quiz2 == bil3quiz2 && bil2quiz2 > bil1quiz2){
+					tkedua2.setText("The second and third number ("+String.valueOf(bil2quiz2)+") are the biggest");
+					tketiga2.setText("The first number ("+String.valueOf(bil1quiz2)+") is the smallest"); 
+				}
+				
+				else if(bil1quiz2 == bil3quiz2 && bil1quiz2 > bil2quiz2){
+					tkedua2.setText("The first and third number ("+String.valueOf(bil1quiz2)+") are the biggest");
+					tketiga2.setText("The second number ("+String.valueOf(bil2quiz2)+") is the smallest");
+				}
+				
 				else {
 					if(bil1quiz2 > bil2quiz2 && bil1quiz2 > bil3quiz2){
 						tkedua2.setText("The first number ("+String.valueOf(bil1quiz2)+") is the biggest");

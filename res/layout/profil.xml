@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvjudulprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        />
+    
+    <TextView 
+        android:id="@+id/tvisi1profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama : Nicholas"
+        android:layout_below="@+id/tvjudulprofil"
+        />
+    
+    <TextView 
+        android:id="@+id/tvisi2profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM : 1833 0303 0020"
+        android:layout_below="@+id/tvisi1profil"
+        />
+    
+    <TextView 
+        android:id="@+id/tvisi3profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have you ever thought of Global Warming, Climate Change, and Sea of Plastic?"
+        android:layout_below="@+id/tvisi2profil"
+        />
+    
+    <TextView 
+        android:id="@+id/tvisi4profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It's time to change our habit, bit by bit. No matter how small it is, it affects."
+        android:layout_below="@+id/tvisi3profil"
+        />
+    
+    <TextView 
+        android:id="@+id/tvisi5profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Mother Earth, there's no Planet B nor Mother B."
+        android:layout_below="@+id/tvisi4profil"
+        />
+    
+
+</RelativeLayout>
